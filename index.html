@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Your Adventure</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body class = "index"> 
+		<div style = "display:none">
+	      <embed>
+	        <audio controls loop autoplay="">
+	          <source src="village.mp3" type="audio/mpeg">
+	        </audio>
+	      </embed>
+	    </div>
+
+		<div>
+			<h1>Hello there, young traveler... What is your name?</h1>
+			Name: <input type="text" id="textBox" value="Insert Name Here">
+			<button onclick="myFunction()"><a href = "prologue.html">Enter</a></button>
+
+	        <script>
+			function myFunction() {
+	    		var answer = document.getElementById("textBox").value;  
+	    		localStorage.setItem("name", answer);
+			}
+			</script>
+		</div>
+	</body>
+</html>

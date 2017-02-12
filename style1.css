@@ -1,0 +1,87 @@
+.index >div {
+	color: #000000;
+	font-size: 18px;
+	line-height: 20px;
+	background: #f5f5f5;
+	border: 1px solid #d5d5d5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 5px 0px 5px 0px;
+	position: relative;
+	display: block;
+	margin: 0px 20px 0px 20px;	
+	text-align: center;
+}
+
+p, h2 {
+	color: #000000;
+	font-size: 18px;
+	line-height: 20px;
+	background: #f5f5f5;
+	border: 1px solid #d5d5d5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 5px 0px 5px 0px;
+	position: relative;
+	display: block;
+	margin: 0px 20px 0px 20px;		
+}
+
+h2 {
+	font-size: 40px;
+	padding: 16px 0px 16px 0px;
+	font-family: "Quicksand", sans-serif;
+	text-align: center;
+}
+
+.button {
+	background: #ADD8E6;
+	border-radius: 30px;
+	font-style: bold;
+	font-size: 20px;
+	margin: 20px 200px 20px 200px;		
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+div p {
+	font-family: "Courier New", sans-serif;
+	font-style: oblique;	
+	text-align: center;
+}
+
+a:link {
+	color: #000000;
+}
+
+a:hover {
+	color: #FFA62F;
+}
+
+.village {
+	background-image: url("http://wallpapercow.com/wp-content/uploads/2014/06/Home-Village-Nature-Landscape-Background-HD.jpg");
+	background-size: 100% 100%;
+}
+
+.mountain {
+	background-image: url("http://2.bp.blogspot.com/-CecgvWgcOrI/VcXLc9GlfQI/AAAAAAAABPI/7_vfl0XTtNA/s1600/Mountain01%2B%252800000%2529.jpg");
+	background-size: 100% 100%;
+}
+
+.forest{
+	background-image: url("http://wallpapercave.com/wp/2AxVPt5.png");
+	background-size: 100% 100%;
+}
+
+.sea {
+	background-image: url("http://os-svarca-ka.skole.hr/upload/os-svarca-ka/images/static3/1443/Image/more.jpg");
+	background-size: 100% 100%;
+}
+
+.index {
+	background-image: url("https://i.ytimg.com/vi/3Uzgk3R4cfM/maxresdefault.jpg");
+	background-size: 100% 100%;
+}
+
